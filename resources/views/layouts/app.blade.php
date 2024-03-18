@@ -13,7 +13,7 @@
     {{-- header --}}
     @include("components.header")
     {{-- main --}}
-    
+    @yield('main-content') 
     {{-- footer --}}
     @include('components.footer')
 </body>

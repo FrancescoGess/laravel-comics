@@ -21,6 +21,9 @@
     </div>
 </nav>
 
+<div class="jumbotron">
+       
+</div>
 
 <style>
     .active{
@@ -72,6 +75,12 @@
         width: 100%;
         transition: width .9s;
     }
-    
-    
+
+    .jumbotron{
+    height: 300px;
+    background-image: url(./assets/img/jumbotron.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
     </style>
