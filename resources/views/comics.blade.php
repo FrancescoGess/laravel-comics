@@ -1,4 +1,6 @@
-@extends('layout.app')
+
+{{-- {{dd("ciao")}} --}}
+@extends('layouts.app')
 
 @section('main-content')
 <div class="colore_back">
